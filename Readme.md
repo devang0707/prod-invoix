@@ -24,22 +24,20 @@ This project leverages the following technologies: React Native, Node.js, Expres
 - **Feature 7:** Invoice Deletion : Added the ability for invoice creators to delete unwanted or incorrect invoices, providing users with better control over their financial records.
 - **Feature 8:** Multiple Invoice Formats : Offered two different functional invoice templates, providing users with options to choose the format that best suits their needs.
 
-## Local Setup Instructions (Write for both windows and macos)
+## Local Setup Instructions 
 
-Follow these steps to run the project locally
-
-### For Windows:
+Follow these steps to run the project locally :
 
 ##### Set Up Backend
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/devang0707/SIH_INTERNAL_ROUND_1_MedLane.git
-   cd SIH_INTERNAL_ROUND_1_MedLane
+   git clone https://github.com/devang0707/prod-invoix.git
+   cd prod-invoix
    ```
 2. **Navigate to 'backend'**
    ```bash
-   cd code/backend
+   cd backend
    ```
 3. **Install dependencies**
    ```bash
