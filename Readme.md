@@ -1,8 +1,8 @@
-## Tasks Accomplished
+# Government Invoicing and Billing System - Cross-Platform Mobile App
 
-- [x] **Task 1:** Security Enhancements: Implement security features in React Native, including data encryption, secure user authentication, and compliance with data protection regulations.
-- [x] **Task 2:** Invoice Management: Migrate the invoice creation, tracking, and management features. Ensure the ability to handle multiple line items, taxes, discounts, and notes, with a smooth UI/UX transition.
-- [x] **Task 3:** Responsive Mobile UI/UX: Leverage React Native’s capabilities to provide a more responsive and intuitive user experience on both iOS and Android devices, with native-like performance and smoother animations.
+
+## Download App for Android [CLICK HERE](https://expo.dev/artifacts/eas/fvWNV7KR1HQA7Yam35nqDQ.apk)
+
 
 ## Technology Stack
 
@@ -10,7 +10,14 @@ This project leverages the following technologies: React Native, Node.js, Expres
 
 - **[Invoix](https://expo.dev/artifacts/eas/fvWNV7KR1HQA7Yam35nqDQ.apk):** Leveraged React Native for cross-platform mobile development, with Node.js and Express.js for scalable backend logic and API management, and MongoDB for flexible, secure data storage.
 
-## Download App for Android [CLICK HERE](https://expo.dev/artifacts/eas/fvWNV7KR1HQA7Yam35nqDQ.apk)
+
+## Tasks Accomplished
+
+- [x] **Task 1:** Security Enhancements: Implement security features in React Native, including data encryption, secure user authentication, and compliance with data protection regulations.
+- [x] **Task 2:** Invoice Management: Migrate the invoice creation, tracking, and management features. Ensure the ability to handle multiple line items, taxes, discounts, and notes, with a smooth UI/UX transition.
+- [x] **Task 3:** Responsive Mobile UI/UX: Leverage React Native’s capabilities to provide a more responsive and intuitive user experience on both iOS and Android devices, with native-like performance and smoother animations.
+
+
 
 
 ## Key Features
