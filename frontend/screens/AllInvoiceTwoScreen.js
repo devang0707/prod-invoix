@@ -34,7 +34,7 @@ export default function AllInvoiceTwoScreen() {
     useEffect(() => {
         const fetchInvoices = async () => {
             try {
-                const res = await axios.get('http://192.168.1.3:8394/api/alts');
+                const res = await axios.get('https://prod-invoix-1.onrender.com/api/alts');
                 setInvoices(res.data);  
             } catch (err) {
                 console.log("Error fetching invoices:", err);

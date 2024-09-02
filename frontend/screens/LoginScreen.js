@@ -37,7 +37,7 @@ export default function LoginScreen({ route }){
         } 
 
         try {
-            const res = await axios.post('http://192.168.1.3:8394/api/users/login', user) 
+            const res = await axios.post('https://prod-invoix-1.onrender.com/api/users/login', user) 
             AsyncStorage.setItem('user', res.data.username) 
             setCurrentUser(res.data.username) 
             setError(false)  
