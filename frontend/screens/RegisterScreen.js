@@ -28,7 +28,7 @@ export default function RegisterScreen({ route }) {
         };
 
         try {
-            const res = await axios.post('https://prod-invoix-1.onrender.com/api/users/register', newUser);
+            const res = await axios.post('https://prod-invoix.onrender.com/api/users/register', newUser);
             setError(false);
             setSuccess(true);
             await AsyncStorage.setItem('user', res.data.username);

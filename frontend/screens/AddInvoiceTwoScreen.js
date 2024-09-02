@@ -118,7 +118,7 @@ export default function AllInvoiceScreen() {
         };
     
         try {
-            const res = await axios.post('https://prod-invoix-1.onrender.com/api/alts', invoice);
+            const res = await axios.post('https://prod-invoix.onrender.com/api/alts', invoice);
             setError(false)  
             setSuccess(true) 
             setTimeout(() => setSuccess(false), 1500);

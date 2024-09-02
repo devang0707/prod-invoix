@@ -112,7 +112,7 @@ export default function AddInvoiceScreen() {
         };
     
         try {
-            const res = await axios.post('https://prod-invoix-1.onrender.com/api/invoices', invoice);
+            const res = await axios.post('https://prod-invoix.onrender.com/api/invoices', invoice);
             setError(false)  
             setSuccess(true) 
             setTimeout(() => setSuccess(false), 1500);

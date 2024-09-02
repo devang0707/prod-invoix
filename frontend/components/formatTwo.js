@@ -69,7 +69,7 @@ export default function FormatTwo({ invoiceData }) {
 
     const handleDeleteInvoice = async (id) => {
         try {
-            await axios.delete(`https://prod-invoix-1.onrender.com/api/alts/${id}`);
+            await axios.delete(`https://prod-invoix.onrender.com/api/alts/${id}`);
             setCurrentInvoiceData(null);
         } catch (err) {
             console.log(err);

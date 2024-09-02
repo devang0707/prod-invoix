@@ -64,7 +64,7 @@ export default function FormatOne({ invoiceData }) {
 
     const handleDeleteInvoice = async (id) => {
         try {
-            await axios.delete(`https://prod-invoix-1.onrender.com/${id}`);
+            await axios.delete(`https://prod-invoix.onrender.com/api/invoices/${id}`);
             setCurrentInvoiceData(null);
         } catch (err) {
             console.log(err);
