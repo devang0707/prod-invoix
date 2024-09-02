@@ -1,0 +1,16 @@
+import React, { Component, useEffect, useState } from 'react'
+import { Platform, ScrollView, Text, TouchableOpacity, View, Dimensions } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { useNavigation } from '@react-navigation/native';
+
+var {width , height} = Dimensions.get('window');
+
+var {width , height} = Dimensions.get('window');
+
+export default function Component(){
+    return ( 
+        <View>
+            <Text></Text>
+        </View>
+    )
+}
