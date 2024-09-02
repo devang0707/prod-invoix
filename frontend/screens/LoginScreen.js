@@ -4,7 +4,6 @@ import { Platform, ScrollView, Text, TextInput, TouchableOpacity, View, Dimensio
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { useNavigation } from '@react-navigation/native' 
 import { ChevronLeftIcon } from "react-native-heroicons/outline" 
-import {styles} from '../styles'
 
 import AsyncStorage from '@react-native-async-storage/async-storage' 
 

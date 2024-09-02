@@ -6,7 +6,6 @@ import InvoiceManager from '../components/invoiceManager'
 import AffiliatedInstitute from '../components/affiliatedInstitute' 
 import AffiliatedVendor from '../components/affiliatedVendor' 
 import { useNavigation } from '@react-navigation/native' 
-import Loading from '../components/loading' 
 
 import AsyncStorage from '@react-native-async-storage/async-storage' 
 
